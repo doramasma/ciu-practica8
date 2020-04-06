@@ -4,7 +4,7 @@ p5.js
 **Doramas Báez Bernal** <br/>
 Correo: doramas.baez101@alu.ulpgc.es
 
-## Gif
+## Imagen
 <div align="center">
   <img src="paint.png" alt="captura de la práctica 8">
   <p align="center">
