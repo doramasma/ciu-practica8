@@ -17,6 +17,7 @@ Correo: doramas.baez101@alu.ulpgc.es
 * [Dependencias](#dependencias) 
 * [Desarrollo](#desarrollo)
     * [Información general](#informaciónGeneral)
+    * [Pincel](#pincel)
 * [Referencias](#referencias)
 
 ## Introducción
@@ -31,17 +32,12 @@ Realmente no existen dependencias como tal, pero es necesario, poder utilizar el
 
 ### Información general <a id="informaciónGeneral"></a>
 
-Básicamente se ha realizado la asignación de una tecla a una nota (notación inglesa): 
- - Q key: Se corresponde con C3
- - W key: Se corresponde con D3
- - E key: Se corresponde con E3 
- - R key: Se corresponde con F3
- - T key: Se corresponde con G3
- - Y key: Se corresponde con A3
- - U key: Se corresponde con B3
- - I key: Se corresponde con C4
- 
+Hemos implementado los dos requisitos, que son, poder cambiar el color y el grosor del trazo. Además, como añadido, se ha posibilitado el uso de una goma y de borrar o crear un nuevo lienzo. Para interactuar con la aplicación, solo debemos clicar en las acciones que queramos realizar. Como es obvio, para pintar debemos clickar sobre el lienzo y arrastrar el ratón.
 
+### Pincel <a id="pincel"></a> 
+El pincel es nuestra herramienta principal, y se podrá modificar su comportamiento.
+ - Color: para permitir escoger el color que queremos utilizar, basicamente se ha utilizado createColorPicker. Para darle un atractivo mayor, se ha decidido bindear dicho color picker a un botón.
+ - Grosor: disponemos de un botón que al clicar en el se aumentará el grosor. Llegados a un tamaño determinado en este caso 20, se reducirá a 1 dicho grosor.
 
 
 ## Referencias
