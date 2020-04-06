@@ -1,0 +1,33 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.controles{
+  display:flex;
+  flex-direction:column;
+  width:578px;
+  height:500px;
+  border-style: solid;
+}
+
+.controles > div {
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  margin:40px 0;
+  padding: 0 10px;
+  cursor:pointer;
+  border-style: solid;
+  width:50px;
+  height:40px;
+}
+
+.bold {
+  font-weight: bold;
+  
+}
+
+#colour-picker{
+display:none;
+}
